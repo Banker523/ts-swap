@@ -735,7 +735,6 @@ export function validateJupSwap(
 	validateJupCleanupInstruction(swap.cleanupInstruction, validCleanReceiverAddress);
 }
 
-//creatTrans func
 export function createTransferAllAndCloseInstruction(
 	owner: PublicKey,
 	mint: PublicKey,
